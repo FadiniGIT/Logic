@@ -30,7 +30,7 @@ int main(int argc, const char * argv[]) {
     printf("\nHow many inputs are there?\n");
     scanf("%d",&user_input_inputnum);
     
-    printf("Start array stuff");
+    
     
     int user_input_array[user_input_inputnum];
    
@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
         scanf("%d", &user_input_arrayData);
         user_input_array[i] = user_input_arrayData;
     }
-    printf("Finish array stuff");
+    
                                             //    for (int j = 0; j < user_input_inputnum; j++) {
                                             //        printf("\n%d", user_input_array[j]);
                                             //    }
