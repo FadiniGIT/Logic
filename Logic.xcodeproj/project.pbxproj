@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		637037C021EA76430057A629 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 637037BF21EA76430057A629 /* main.c */; };
+		6386A56C21ED8D9A00F275AA /* calculations.c in Sources */ = {isa = PBXBuildFile; fileRef = 6386A56B21ED8D9A00F275AA /* calculations.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		637037BC21EA76430057A629 /* Logic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Logic; sourceTree = BUILT_PRODUCTS_DIR; };
 		637037BF21EA76430057A629 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		6386A56A21ED8D9A00F275AA /* calculations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculations.h; sourceTree = "<group>"; };
+		6386A56B21ED8D9A00F275AA /* calculations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calculations.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				637037BF21EA76430057A629 /* main.c */,
+				6386A56A21ED8D9A00F275AA /* calculations.h */,
+				6386A56B21ED8D9A00F275AA /* calculations.c */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				637037C021EA76430057A629 /* main.c in Sources */,
+				6386A56C21ED8D9A00F275AA /* calculations.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

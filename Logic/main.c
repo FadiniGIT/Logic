@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include "calculations.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -31,7 +32,6 @@ int main(int argc, const char * argv[]) {
     scanf("%d",&user_input_inputnum);
     
     
-    
     int user_input_array[user_input_inputnum];
    
     for (int i = 0; i < user_input_inputnum; i++) {
@@ -40,13 +40,11 @@ int main(int argc, const char * argv[]) {
         scanf("%d", &user_input_arrayData);
         user_input_array[i] = user_input_arrayData;
     }
-    
-                                            //    for (int j = 0; j < user_input_inputnum; j++) {
-                                            //        printf("\n%d", user_input_array[j]);
-                                            //    }
+ 
     //Switch for user input
     switch (user_input_select) {
-        case 1 :    printf("CHOICE_ONE_SELECTED");
+        case 1 :    printf("The and operation of your inputs is:\n");
+                    andFunction(user_input_array, user_input_select);
                     break;
         case 2 :    printf("CHOICE_TWO_SELECTED");
                     break;
@@ -59,10 +57,5 @@ int main(int argc, const char * argv[]) {
         default:    printf("NOT_VALID_CHOICE...something is wrong cause this message shouldn't even be seen");
                     break;
     }
-    //create secondary file too
-    
-    
-    
-    
     return 0;
 }
