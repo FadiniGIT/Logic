@@ -15,6 +15,15 @@ void andFunction(int* user_input_array, int user_input_select){
         ans = user_input_array[i] && ans;
         i++;
     }
+    printf("%d\n", ans);
+}
 
+void orFunction(int* user_input_array, int user_input_select){
+    int ans = 0, i = 0;
+    
+    while (i< user_input_select) {
+        ans = user_input_array[i] || ans;
+        i++;
+    }
     printf("%d\n", ans);
 }

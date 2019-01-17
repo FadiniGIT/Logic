@@ -11,6 +11,6 @@
 
 #include <stdio.h>
 void andFunction(int* user_input_array, int user_input_select);
-
+void orFunction(int* user_input_array, int user_input_select);
 
 #endif /* calculations_h */

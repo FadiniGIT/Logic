@@ -46,13 +46,14 @@ int main(int argc, const char * argv[]) {
         case 1 :    printf("The and operation of your inputs is:\n");
                     andFunction(user_input_array, user_input_select);
                     break;
-        case 2 :    printf("CHOICE_TWO_SELECTED");
+        case 2 :    printf("The or operation of your inputs is:\n");
+                    orFunction(user_input_array, user_input_select);
                     break;
-        case 3 :    printf("CHOICE_THREE_SELECTED");
+        case 3 :    printf("The xor operation of your inputs is:\n");
                     break;
-        case 4 :    printf("CHOICE_FOUR_SELECTED");
+        case 4 :    printf("The nor operation of your inputs is:\n");
                     break;
-        case 5 :    printf("CHOICE_FIVE_SELECTED");
+        case 5 :    printf("The nand operation of your inputs is:\n");
                     break;
         default:    printf("NOT_VALID_CHOICE...something is wrong cause this message shouldn't even be seen");
                     break;
